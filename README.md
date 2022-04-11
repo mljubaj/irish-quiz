@@ -27,4 +27,5 @@ After the quiz is answered, the user can see the scores.
 
 ## Deployment
 
-* The quiz is deployed to 
+* The quiz is deployed to Heroku 
+* The quiz is deployed to Github (mljubaj)
