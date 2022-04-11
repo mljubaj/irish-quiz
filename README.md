@@ -1,31 +1,30 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The Irish Quiz
+The Irish quiz is a mini game made of 5 questions about Ireland.
+The user can see how much it knows about Republic of Ireland.
+After the quiz is answered, the user can see the scores.
 
-Welcome mljubaj,
+## Welcome!
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+* First the game asks the player to input the name
+* After we see a 'Welcome message' containing short instructions of the quiz
+* Function end is defined if the user whishes to quit
+* The user can choose to start or stop the game 
 
-## Reminders
+## The questions
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+* After the users writes 'yes' to start the game, each question is iterated from the question list, with input of 'yes' or 'no'
+* The results are shown for questions 1-5 after all of the questions are answered, respectivly
 
-## Creating the Heroku app
+## The End
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+* The game counts the score and prints it when the results are shown
+* The end function is being called to thank the player for playing, and to exit the game
 
-1. `heroku/python`
-2. `heroku/nodejs`
+## Accessibility
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+* The game is not case sensitive, so the answers will be valid if the user uses both uppercase or lowercase
+* The game was written following PEP8 Stadandard
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+## Deployment
 
-Connect your GitHub repository and deploy as normal.
-
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
------
-Happy coding!
+* The quiz is deployed to 
